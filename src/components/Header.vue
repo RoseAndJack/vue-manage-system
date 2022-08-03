@@ -47,6 +47,7 @@ import { useStore } from "vuex";
 import { useRouter } from "vue-router";
 export default {
     setup() {
+        console.log('header');
         const username = localStorage.getItem("ms_username");
         const message = 2;
 
@@ -82,6 +83,7 @@ export default {
             handleCommand,
         };
     },
+    
 };
 </script>
 <style scoped>
