@@ -4,8 +4,7 @@ import router from './router'
 import store from './store'
 import installElementPlus from './plugins/element'
 import './assets/css/icon.css'
-import JsEncrypt from 'jsencrypt'
-Vue.prototype.$jsEncrypt = JsEncrypt
+
 
 
 const app = createApp(App)
